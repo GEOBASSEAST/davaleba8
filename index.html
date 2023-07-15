@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .A1 div {
+                width: 100%;
+                height: 50px;
+                border: 1px solid black;
+                background-color: none;
+                display: flex;
+                flex-flow: wrap;
+                justify-content: center;
+                padding: 0px;
+                margin: 0px;
+            }
+            .B1 {
+                width: 100%;
+                background-color: black;
+
+            }
+            nav {
+                width: 100%;
+                overflow: hidden;
+                background-color: black;}
+
+                nav a{
+                float: right;
+                display: block;
+                color: bisque;
+                text-align: center;
+                padding: 15px;
+           }
+
+           .nav a {
+            font-size: 20px;
+            color: aliceblue;
+            font-weight: 500;
+            text-decoration: none;
+            margin-left: 30px;
+           }
+
+           .nav a:hover {
+            background-color: none;
+            color: white; }
+
+            .B1 {
+                height: 200px; 
+                background-color: rgb(204, 58, 58);
+
+            }
+
+            h1 {
+                float: left;
+                color: white;
+                padding: 0px 0px 0px 20px;
+            }
+            button {
+                width: 100px;
+                height: 50px;
+                background-color: azure;
+                border-radius: 5px;
+                color: rgb(204, 58, 58);
+                
+            }
+        
+            #C2 {
+                
+                display: inline-flex;
+                flex-flow: row;
+                width: 100%;
+                padding: 20px;
+                box-sizing: border-box;
+                border: 1px solid black;
+                
+                
+            }
+            #beach {
+                border: 1px solid black;
+                width: 100px;
+                height: 100px;
+                padding: 100px;
+                background: url(img/beach.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;}
+
+            #desert {
+                border: 1px solid black;
+                width: 100px;
+                height: 100px;
+                padding: 100px;
+                background: url(img/desert.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;}
+
+            #mount {
+                border: 1px solid black;
+                height: 100px;
+                width: 100px;
+                padding: 100px;
+                background: url(img/mount.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            #C1 {
+                background-color: rgb(233, 84, 84);
+                width: 100%;
+                height: 400px;
+            }
+
+           
+
+
+        </style>
+
+    </head>
+    <body>
+        <div class="A1">
+            <nav class="nav">
+                <h1>My Flexbox Website</h1>
+                <a href="https://commschool.ge/contact/" class="active">Contact</a>
+                <a href="" class="active">Services</a>
+                <a href="https://commschool.ge/aboutus/" class="active">About</a>
+                <a href="https://commschool.ge/" class="active">Home</a>   
+            </nav>
+        </div>
+        <div class="B1" style="text-align: center;"> 
+            <h2 style="color: white; margin: 0px; padding: 20px;">Welcome to My Website</h2>
+            <p style="color: white;">Never give up</p>
+            <button class="active">Learn More</button>
+            
+        </div>
+        <div class="B2" style="height: 150px; background-color: white">
+            <center><h2 style="color: black; margin: 0px; padding: 20px;">About Me</h2></center>
+            <center><p style="color: black;">Top Secret </p></center>
+        </div>
+        <div id="C2">
+            <h2>Services</h2>
+            <div id="beach"><a href="" target="_blank"> <img src="" alt=""></a>Services</div>
+            <div id="desert"><a href="" target="_blank"> <img src="" alt=""></a>Services</div>
+            <div id="mount"><a href="" target="_blank"> <img src="" alt=""></a>Services</div>
+        </div>
+        <div id="C1">
+            <form>
+                <input style="border-radius: 5px; margin: 20px 5px 5px 10px;" size="264" type="text" placeholder="Name"/>
+                <p><input style="border-radius: 5px; margin: 10px;" size="264 type="text" placeholder="Mail"/></p>
+                <td><textarea style="border-radius: 5px; margin: 10px;" name="message" rows="8" cols="254" placeholder="Your message"></textarea></td>
+                <center><p><input style="border-radius: 5px; margin: 10px; color:rgb(233, 84, 84); width: 100px; height: 50px ;" type="submit" value="submit" /></center>
+
+            </form>
+        </div>
+    </body>
+</html>
