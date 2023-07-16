@@ -65,15 +65,55 @@
         
             #C2 {
                 
-                display: inline-flex;
+                display: flex;
                 flex-flow: row;
-                width: 100%;
+                justify-content: center;
+                background-color: gainsboro;
+                /*align-items: center;
+                /*width: 100%;
                 padding: 20px;
                 box-sizing: border-box;
-                border: 1px solid black;
+                border: 1px solid black;*/
                 
                 
             }
+
+            .flex-C2 {
+                display: flex;
+                flex-flow: row;
+                justify-content: center;
+                width: 300px;
+                height: 250px;
+                align-items: center;
+                background-color: white;
+                border-radius: 5px;
+                margin: 10px 0px;
+            }
+
+            .flex-C1 {
+                display: flex;
+                flex-flow: row;
+                justify-content: center;
+                width: 300px;
+                height: 250px;
+                align-items: center;
+                background-color: white;
+                border-radius: 5px;
+                margin: 10px;
+            }
+            .flex-C3 {
+                display: flex;
+                flex-flow: row;
+                justify-content: center;
+                width: 300px;
+                height: 250px;;
+                align-items: center;
+                background-color: white;
+                border-radius: 5px;
+                margin: 10px;
+            }
+
+
             #beach {
                 border: 1px solid black;
                 border-radius: 5px;
@@ -82,7 +122,11 @@
                 padding: 100px;
                 background: url(img/beach.jpg);
                 background-repeat: no-repeat;
-                background-size: cover;}
+                background-size: cover;
+                
+                
+        }
+                
 
             #desert {
                 border: 1px solid black;
@@ -139,9 +183,15 @@
         </div>
         <div id="C2">
             <h2>Services</h2>
-            <div id="beach"><a href="" target="_blank"> <img src="" alt=""></a>Services</div>
-            <div id="desert"><a href="" target="_blank"> <img src="" alt=""></a>Services</div>
-            <div id="mount"><a href="" target="_blank"> <img src="" alt=""></a>Services</div>
+            <div class="flex-C2">
+            <div id="beach"><a href="" target="_blank"> <img src="" alt=""></a></div>
+            </div>
+            <div class="flex-C1">
+            <div id="desert"><a href="" target="_blank"> <img src="" alt=""></a></div>
+        </div>
+        <div class="flex-C3">
+            <div id="mount"><a href="" target="_blank"> <img src="" alt=""></a></div>
+            </div>
         </div>
         <div id="C1">
             <form>
